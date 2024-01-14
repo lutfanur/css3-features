@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Overflow</title>
+    <style>
+         .box{
+            width: 200px;
+            min-height: 200px;
+            border: 3px solid yellow;
+            overflow: scroll;
+            overflow: auto;
+        }
+        /* #box-1{
+             overflow: scroll; 
+             overflow-x: hidden;
+             overflow: auto;
+        }  */
+        .ellipsis{
+            width: 200px;
+            border: 2px solid green;
+            white-space: nowrap;
+            overflow: hidden;
+            text-overflow: ellipsis;
+        }
+
+
+    </style>
+</head>
+<body>
+    <header>
+        <p class="ellipsis">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Hic amet enim sint quis tenetur rerum.</p>
+    </header>
+    <section>
+         /* .box*2>h3{My Text Box $}+p>lorem200  */
+        <div id="box-1" class="box">
+            <h3>My Text Box 1</h3>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Molestias laboriosam blanditiis dolorem nam ab nostrum possimus maiores sint veritatis ipsam recusandae totam temporibus, omnis alias odio error eum delectus natus rem quaerat est tempore. Commodi cupiditate impedit iusto modi quam voluptatibus est nulla minus exercitationem veniam? Iste quidem natus eligendi sequi dolor ex laudantium quasi voluptas maiores consequuntur suscipit ab in, odit esse nesciunt quis, nemo facilis voluptates. Similique quaerat rem et perferendis delectus corporis quos labore, iste ab velit animi veritatis suscipit ducimus sapiente id optio. Aut aliquam provident repellat quidem odit ratione ut consectetur itaque similique quos delectus esse, expedita quasi rerum magnam consequuntur soluta laborum odio dignissimos aliquid illum excepturi, doloribus aperiam. Molestias quasi magnam earum sapiente, optio eum repudiandae cupiditate nesciunt libero! Laborum, atque? Quasi, natus sed at illo molestias corrupti iusto tenetur nemo eligendi totam quisquam dignissimos magni amet porro blanditiis provident. Quam molestias, vel impedit nulla voluptatem enim possimus officiis non? Voluptate, architecto. Provident aperiam nihil repudiandae deleniti dicta ducimus quisquam voluptates expedita quae debitis eaque sint labore quibusdam doloremque, dignissimos dolorem enim quo reprehenderit ratione ipsam a. Nemo perferendis voluptatibus molestias ratione deleniti tenetur nisi provident commodi quod! Facere earum ea facilis ipsam.</p>
+        </div>
+        <div class="box">
+            <h3>My Text Box 2</h3>
+            <p>Ipsum cumque architecto, cum nesciunt nemo consequatur perspiciatis unde ex accusamus et? Iure rerum quos, maiores numquam aperiam voluptates consectetur. Minus culpa, voluptatem totam cum, odit nihil illo aliquid non repellat veritatis est ex dolorem amet porro quis! Culpa rerum sequi quidem perspiciatis ipsa aliquam voluptatem porro maiores omnis distinctio consectetur est, illum voluptate voluptatum exercitationem libero vero error. Nisi amet tenetur odio fuga. Sint itaque perspiciatis provident adipisci impedit culpa praesentium aliquam tenetur, accusamus sequi quasi expedita nihil temporibus sit optio reiciendis necessitatibus deserunt iste dignissimos explicabo! Voluptatibus corporis accusantium quia voluptates incidunt sequi, suscipit dolore veniam minima amet dolorum commodi cupiditate ducimus iste necessitatibus non accusamus, consequatur earum dicta! Sed voluptate dolor illo architecto maxime totam sequi, nihil beatae voluptatibus adipisci labore magnam earum sit mollitia nisi animi cupiditate, qui consequuntur vel optio quae dolore illum deleniti explicabo. Sunt ipsa iste consequuntur corporis, nemo explicabo rerum quia laboriosam obcaecati. Tempora molestias soluta dolor dolorem impedit inventore, iste animi sequi, culpa enim hic eligendi explicabo quo labore ab voluptatem modi tempore architecto esse deleniti quas alias atque excepturi. Id, beatae! Debitis fuga expedita quasi deleniti incidunt aliquam cupiditate fugit culpa odio? Provident vitae cupiditate recusandae, nam quod aperiam minima.</p>
+        </div>
+        <div class="box">
+            <h3>Text Box 3</h3>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Exercitationem aperiam aut nostrum reiciendis eos asperiores illo ratione natus sapiente molestias?</p>
+        </div>
+    </section>
+    
+</body>
+</html>
